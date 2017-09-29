@@ -5,7 +5,7 @@ public class EvenOrOdd {
 	public static void main(String[] args) {
 
 		// call/invoke method evenOrOdd which takes an argument(input) an integer
-		evenOrOdd(5);
+		evenOrOdd(4);
 
 	}
 

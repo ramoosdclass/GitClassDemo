@@ -3,14 +3,12 @@ package basics1;
 public class GradeStudents {
 
 	public static void main(String[] args) {
-		checkStudentGrade(65);
+		checkStudentGrade(62);
 	}
 
 	private static void checkStudentGrade(int score) {
 
-		if (score < 50) {
-			System.out.println("fail");
-		} else if (score >= 50 && score < 60) {
+		if (score >= 50 && score < 60) {
 			System.out.println("D grade");
 		} else if (score >= 60 && score < 70) {
 			System.out.println("C grade");
@@ -20,6 +18,8 @@ public class GradeStudents {
 			System.out.println("A grade");
 		} else if (score >= 90 && score < 100) {
 			System.out.println("A+ grade");
+		}  else if (score < 50) {
+				System.out.println("fail");
 		} else {
 			System.out.println("Invalid!");
 		}
