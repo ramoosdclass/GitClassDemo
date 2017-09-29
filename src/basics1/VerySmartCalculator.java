@@ -11,7 +11,7 @@ public class VerySmartCalculator {
 	System.out.println("Please enter number2: ");
 	int number2 = new Scanner(System.in).nextInt();
 	
-	System.out.println("Please enter the operation to be performed: ");
+	System.out.println("Please enter the operation to be performed: ");   
 	String operation = new Scanner(System.in).next();
 	
 	calculate(number1, number2, operation);
