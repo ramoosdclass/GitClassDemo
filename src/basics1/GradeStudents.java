@@ -3,7 +3,7 @@ package basics1;
 public class GradeStudents {
 
 	public static void main(String[] args) {
-		checkStudentGrade(62);
+		checkStudentGrade(65);
 	}
 
 	private static void checkStudentGrade(int score) {
