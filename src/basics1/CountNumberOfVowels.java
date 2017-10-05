@@ -3,7 +3,7 @@ package basics1;
 public class CountNumberOfVowels {
 
 	public static void main(String[] args) {
-		System.out.println(countVowelsInAWord("compilation"));
+		System.out.println(countVowelsInAWord("hello"));
 
 	}
 
