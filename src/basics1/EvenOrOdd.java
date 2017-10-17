@@ -6,6 +6,9 @@ public class EvenOrOdd {
 
 		// call/invoke method evenOrOdd which takes an argument(input) an integer
 		evenOrOdd(5);
+		printSomething();
+		
+		
 
 	}
 
@@ -20,6 +23,10 @@ public class EvenOrOdd {
 		else
 			System.out.println("number is odd");
 
+	}
+	
+	static void printSomething() {
+		System.out.println("somthing - i serve no purpose");
 	}
 
 }
