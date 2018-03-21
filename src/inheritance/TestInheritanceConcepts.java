@@ -12,8 +12,8 @@ public class TestInheritanceConcepts {
 
 		SalesPerson salesPerson1 = new SalesPerson();
 
-		salesPerson1.pay();
-		salesPerson1.bouns();
+//		salesPerson1.pay();
+//		salesPerson1.bouns();
 		salesPerson1.fourOoneK();
 		
 		

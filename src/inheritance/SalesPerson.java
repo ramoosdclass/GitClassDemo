@@ -1,6 +1,6 @@
 package inheritance;
 
-public class SalesPerson extends Employee {
+public class SalesPerson {
 	
 	
 	void fourOoneK() {

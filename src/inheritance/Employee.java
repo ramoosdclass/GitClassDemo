@@ -8,15 +8,15 @@ public class Employee {
 	//make bonus a non-abstract method in employee
 	//and make clerk have a custom bonus
 
-	void pay() {
+	protected void pay() {
 		System.out.println("Pay an employee");
 	}
 
-	void terminate() {
+	 void terminate() {
 		System.out.println("Terminate the employee");
 	}
 	
-	void bouns() {
+	 void bouns() {
 		System.out.println("pay 3.5% bonus");
 	}
 
